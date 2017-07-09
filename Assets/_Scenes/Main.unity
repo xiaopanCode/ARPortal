@@ -589,6 +589,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 229804521}
+  - component: {fileID: 229804522}
   m_Layer: 0
   m_Name: CameraParent
   m_TagString: Untagged
@@ -610,6 +611,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &229804522
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 229804520}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &278507336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1116,7 +1129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e68bc1be4ed2dc5409c3ab7755030dc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 229804520}
   receiver: {fileID: 1083275981}
 --- !u!65 &428064065
 BoxCollider:
@@ -1876,7 +1889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e68bc1be4ed2dc5409c3ab7755030dc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 229804520}
   receiver: {fileID: 428064062}
 --- !u!65 &981875990
 BoxCollider:
@@ -1980,7 +1993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e68bc1be4ed2dc5409c3ab7755030dc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 229804520}
   receiver: {fileID: 428064062}
 --- !u!65 &1083275983
 BoxCollider:
@@ -2435,7 +2448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e68bc1be4ed2dc5409c3ab7755030dc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 229804520}
   receiver: {fileID: 1083275981}
 --- !u!65 &1607459151
 BoxCollider:
